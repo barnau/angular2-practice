@@ -1,0 +1,40 @@
+.nav.navbar-nav {
+    font-size: 15px;
+}
+
+#searchForm {
+    margin-right: 100px;
+}
+
+@media (max-width: 1200px) {
+    #searchForm {
+        display: none;
+    }
+}
+
+.navbar-default {
+    background-color: #2e3e51 !important;
+}
+
+.navbar-brand {
+    color: #dfdcd8 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #dfdcd8;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #dfdcd8 !important;
+}

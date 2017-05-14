@@ -8,6 +8,8 @@ import { EventsListComponent } from './events/events-list/events-list.component'
 import { EventThumbnailComponent } from './events/event-thumbnail/event-thumbnail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
+import { EventService } from './events/shared/event.service';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,7 @@ import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
     HttpModule,
     AlertModule.forRoot()
   ],
-  providers: [],
+  providers: [ EventService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
